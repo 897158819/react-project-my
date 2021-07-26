@@ -1,0 +1,33 @@
+*{padding:0;margin: 0;}
+a {text-decoration: none;color: white}
+li {
+    list-style-type:none;
+}
+.menu {
+    width: 20%;
+    /* display: inline-block; */
+    box-sizing: border-box;
+    height: 100%;
+    background-color: rgb(51, 51, 50);
+}
+.menu_li{
+    margin-top:24px;
+    font-size:18px;
+    color: white;
+    
+}
+.content {
+    margin-top: 0px;
+    width: 80%;
+    
+}
+.homeContent{
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
