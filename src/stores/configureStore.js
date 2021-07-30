@@ -1,5 +1,5 @@
-import {createStore,applyMiddleware,compose} from 'redux';
-import rootReducer from '../reducers/store';
+import {createStore,applyMiddleware} from 'redux';
+import rootReducer from '../reducers/index';
 
 const crashReporter = store => next => action => {
     try {

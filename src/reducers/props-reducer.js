@@ -26,6 +26,6 @@ export default function(state=initialState,action){
         case REDUX_PAYLOAD:
             return {...state,redux_payload:action.payload}
         default:
-            state
+            state 
     }
 }
